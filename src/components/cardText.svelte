@@ -7,6 +7,8 @@
   export let githubLink: string;
   export let golang: boolean;
   export let next: boolean;
+  export let typescript: boolean;
+  export let mongo: boolean;
 
   const handleOnMouseMove = (
     e: MouseEvent & {
@@ -49,7 +51,13 @@
     {#if golang}
       <Icon icon="fa6-brands:golang" />
     {/if}
-    <Icon icon="bxl:mongodb" />
+    {#if mongo}
+      <Icon icon="bxl:mongodb" />
+    {/if}
+
+    {#if typescript}
+      <Icon icon="bxl:typescript" />
+    {/if}
   </div>
 
   <h1 class="transition-all opacity-0 group-hover:opacity-100">
