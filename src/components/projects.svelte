@@ -8,17 +8,19 @@
 
   setTimeout(() => {
     textClass =
-      "text-transparent bg-clip-text bg-gradient-to-r from-white to-lime-500 to-50%";
+      "text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-500 to-50%";
   }, 500);
 </script>
 
 <main class="px-8 py-5">
   <h1
-    class="font-extrabold montserrat text-9xl max-sm:text-4xl text-center transition-all {textClass}"
+    class=" montserrat text-9xl max-sm:text-4xl text-center transition-all pb-14 {textClass}"
   >
     FRONTEND
   </h1>
-  <div class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10">
+  <div
+    class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10 relative"
+  >
     <CardImage image={thefield} />
     <CardText
       title={"The field"}
@@ -29,6 +31,13 @@
       golang
       typescript
       mongo
+    />
+    <div
+      class="absolute top-1/3 -left-52 w-96 h-96 rounded-full bg-gradient-to-r from-zinc-950 from-30% via-indigo-800  to-violet-900 animate-[spin_20s_linear_infinite]"
+    />
+
+    <div
+      class="absolute top-1/3 -right-20 w-72 h-72 rounded-full bg-gradient-to-r from-green-800  via-lime-800 to-80%  to-black"
     />
 
     <CardText
@@ -48,8 +57,12 @@
   >
     BACKEND
   </h1>
-  <div class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10">
-    <div class="w-full max-sm:hidden min-h-[24rem] max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
+  <div
+    class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10"
+  >
+    <div
+      class="w-full max-sm:hidden min-h-[24rem] max-h-96 text-sky-500 grid place-items-center rounded-md relative overflow-hidden"
+    >
       <Icon icon="fa6-brands:golang" width={300} />
     </div>
     <CardText
@@ -62,6 +75,7 @@
       typescript={false}
       mongo
     />
+
     <CardText
       title={"'Venta Online'"}
       classprop={"first-letter:text-blue-600"}
@@ -72,7 +86,9 @@
       typescript
       mongo
     />
-    <div class="w-full min-h-[24rem] max-sm:hidden max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
+    <div
+      class="w-full min-h-[24rem] max-sm:hidden max-h-96 text-sky-500 grid place-items-center rounded-md relative overflow-hidden"
+    >
       <Icon icon="skill-icons:expressjs-light" width={300} />
     </div>
   </div>
