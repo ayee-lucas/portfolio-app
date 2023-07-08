@@ -12,7 +12,7 @@
       inter
     "
     >
-      FEATURED PROJECTS
+      Experience
     </h1>
 
   </div>
