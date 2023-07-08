@@ -14,11 +14,11 @@
 
 <main class="px-8 py-5">
   <h1
-    class="font-extrabold montserrat text-9xl text-center transition-all {textClass}"
+    class="font-extrabold montserrat text-9xl max-sm:text-4xl text-center transition-all {textClass}"
   >
     FRONTEND
   </h1>
-  <div class="min-h-screen w-full grid grid-cols-2 grid-flow-row gap-2 mt-10">
+  <div class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10">
     <CardImage image={thefield} />
     <CardText
       title={"The field"}
@@ -44,12 +44,12 @@
     <CardImage image={novaris} />
   </div>
   <h1
-    class="font-extrabold montserrat text-9xl text-center transition-all text-transparent bg-clip-text bg-gradient-to-r from-white to-indigo-500 to-50%"
+    class="font-extrabold montserrat text-9xl max-sm:text-4xl text-center transition-all text-transparent bg-clip-text bg-gradient-to-r from-white to-indigo-500 to-50%"
   >
     BACKEND
   </h1>
-  <div class="min-h-screen w-full grid grid-cols-2 grid-flow-row gap-2 mt-10">
-    <div class="w-full min-h-[24rem] max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
+  <div class="min-h-screen w-full grid grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-2 mt-10">
+    <div class="w-full max-sm:hidden min-h-[24rem] max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
       <Icon icon="fa6-brands:golang" width={300} />
     </div>
     <CardText
@@ -72,7 +72,7 @@
       typescript
       mongo
     />
-    <div class="w-full min-h-[24rem] max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
+    <div class="w-full min-h-[24rem] max-sm:hidden max-h-96 text-sky-500 grid place-items-center rounded-md relative  overflow-hidden">
       <Icon icon="skill-icons:expressjs-light" width={300} />
     </div>
   </div>

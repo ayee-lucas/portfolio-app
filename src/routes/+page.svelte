@@ -57,7 +57,7 @@
           <h1
             class="animate__animated {intersecting
               ? 'animate__fadeInUp'
-              : 'animate__fadeOutUp'} bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-500"
+              : 'animate__fadeOutUp'} bg-clip-text max-sm:text-xl max-sm:text-center text-transparent bg-gradient-to-r from-white to-indigo-500"
           >
             My name is Alan and, I am a full stack web developer
           </h1>

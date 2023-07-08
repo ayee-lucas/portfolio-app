@@ -17,7 +17,7 @@
     in the field.
   </p>
 
-  <div class="w-full flex items-center">
+  <div class="w-full flex  items-center">
     <CardText
       title={"Portfolio"}
       classprop={"first-letter:text-orange-600"}
@@ -29,7 +29,7 @@
       mongo={false}
     />
 
-    <div class="text-white w-1/2 grid place-items-center">
+    <div class="text-white max-sm:hidden w-1/2 grid place-items-center">
       <Icon icon="vscode-icons:file-type-svelte" width={300} />
     </div>
   </div>
@@ -44,7 +44,7 @@
       typescript
       mongo
     />
-    <div class="text-white w-1/2 grid place-items-center">
+    <div class="text-white max-sm:hidden w-1/2 grid place-items-center">
       <Icon icon="logos:nextjs-icon" width={300} />
     </div>
   </div>
@@ -59,7 +59,7 @@
       typescript={false}
       mongo
     />
-    <div class="text-white w-1/2 grid place-items-center">
+    <div class="text-white max-sm:hidden w-1/2 grid place-items-center">
       <Icon icon="akar-icons:vercel-fill" width={300} />
     </div>
   </div>
@@ -76,7 +76,7 @@
       mongo={true}
     />
 
-    <div class="text-white w-1/2 grid place-items-center">
+    <div class="text-white max-sm:hidden w-1/2 grid place-items-center">
       <Icon icon="devicon:nodejs" width={300} />
     </div>
   </div>

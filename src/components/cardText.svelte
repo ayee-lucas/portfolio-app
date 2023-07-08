@@ -35,7 +35,7 @@
   on:mousemove={(e) => handleOnMouseMove(e)}
   on:click={() => handleRedirect(githubLink)}
   aria-hidden
-  class="w-full min-h-[24rem] max-h-96 border border-zinc-800 relative card montserrat text-gray-200 poppins p-10 cursor-pointer group"
+  class="w-full min-h-[24rem] max-h-96 max-sm:max-h-fit border border-zinc-800 relative card montserrat text-gray-200 poppins p-10 cursor-pointer group"
 >
   <h1 class="text-3xl uppercase font-semibold {classprop}">
     {title}
@@ -43,7 +43,7 @@
   <p class="mt-8">
     {description}
   </p>
-  <div class="py-10 text-2xl flex items-center gap-4">
+  <div class="py-10 max-sm:pt-10 text-2xl flex items-center gap-4">
     <Icon icon="ant-design:github-filled" />
     {#if next}
       <Icon icon="akar-icons:nextjs-fill" />
