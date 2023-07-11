@@ -39,7 +39,7 @@
     on:click={() => handleRedirect('/projects')}
     aria-hidden
     role="button"
-    class="border transition-all border-gray-600 w-52 h-28 grid place-items-center rounded-md text-sm group/cardproject hover:-translate-x-5 relative card"
+    class="border transition-all border-gray-600 w-52 h-28 max-sm:w-28 grid place-items-center rounded-md text-sm group/cardproject hover:-translate-x-5 relative card"
   >
     <div class="grid place-items-center gap-3">
       <span class="transition-all group-hover/cardproject:text-lg">
@@ -56,7 +56,7 @@
     on:click={() => handleRedirect('/about')}
     aria-hidden
     role="button"
-    class="border transition-all border-gray-600 w-52 h-28 grid place-items-center rounded-md text-sm group/cardabout hover:translate-x-5 relative card"
+    class="border transition-all border-gray-600 w-52 h-28 max-sm:w-28 grid place-items-center rounded-md text-sm group/cardabout hover:translate-x-5 relative card"
   >
     <div class="grid place-items-center gap-3">
       <span class="transition-all group-hover/cardabout:text-lg">
