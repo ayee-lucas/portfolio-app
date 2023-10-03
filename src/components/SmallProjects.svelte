@@ -25,7 +25,7 @@
       githubLink={"https://github.com/alopez-2018459/portfolio-app"}
       next={false}
       golang={false}
-      typescript={false}
+      typescript
       mongo={false}
     />
 
@@ -33,6 +33,22 @@
       <Icon icon="vscode-icons:file-type-svelte" width={300} />
     </div>
   </div>
+  <div class="w-full flex items-center">
+    <CardText
+            title={"Angular Showcase"}
+            classprop={"first-letter:text-red-800"}
+            description={`Angular training showcase using Angular Material and Google Auth. The application incorporates various features and technologies to provide a comprehensive solution.`}
+            githubLink={"https://github.com/ayee-lucas/proyecto1_is4tech"}
+            golang={false}
+            mongo={false}
+            next={false}
+            typescript
+    />
+    <div class="text-red-600 max-sm:hidden w-1/2 grid place-items-center">
+      <Icon icon="cib:angular" width={300} />
+    </div>
+  </div>
+
   <div class="w-full flex items-center">
     <CardText
       title={"Gestor App"}
