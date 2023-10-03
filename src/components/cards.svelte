@@ -30,7 +30,7 @@
 </script>
 
 <div
-  class="flex items-center justify-center gap-9 w-full mt-10 animate__animated
+  class="flex items-center justify-center text-white gap-9 w-full mt-10 animate__animated
   bg-gradient-to-r 
   {intersecting ? 'animate__fadeInUp' : 'animate__fadeOutUp'}"
 >
