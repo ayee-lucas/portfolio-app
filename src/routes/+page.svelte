@@ -59,7 +59,7 @@
               ? 'animate__fadeInUp'
               : 'animate__fadeOutUp'} bg-clip-text max-sm:text-xl max-sm:text-center text-transparent bg-gradient-to-r from-white to-indigo-500"
           >
-            My name is Alan and, I am a full stack web developer
+            Alan López - Web developer
           </h1>
           <div class="text-lg mt-5">
             <Cards {intersecting}/>

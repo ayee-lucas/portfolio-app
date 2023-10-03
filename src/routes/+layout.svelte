@@ -56,7 +56,7 @@
       </div>
     </li>
     <li>
-      <a href="https://github.com/alopez-2018459" class="text-white">
+      <a href="https://github.com/ayee-lucas" class="text-white">
         <Icon icon="ant-design:github-filled" />
       </a>
     </li>
