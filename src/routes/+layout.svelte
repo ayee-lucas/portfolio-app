@@ -19,7 +19,8 @@
   class=" {isOnHome ? (scrollingY > 40 ? 'opacity-100' : 'opacity-0') : 'opacity-100'}
     fixed inset-x-0 text-xl top-0 py-2 transition-all bg-transparent text-white z-50 px-4 flex justify-end pt-3"
 >
-  <ul class="flex flex-col items-end gap-2 text-xl mr-20  pb-0 pt-4 bg-black/20 backdrop-blur-sm backdrop-saturate-200">
+  <ul class="flex flex-col items-end gap-2 text-xl mr-20  pb-0 pt-4 bg-black/20 backdrop-blur-sm backdrop-saturate-200
+             max-sm:bg-black/70 max-sm:text-white max-sm:p-5 max-sm:w-full max-sm:m-0 max-sm:flex-row">
     <li class="text-sm relative flex items-center gap-1 group/home">
       <div
         class="transition-all group-hover/home:-translate-x-1 flex items-center gap-1 text-gray-400 group-hover/home:text-white"
