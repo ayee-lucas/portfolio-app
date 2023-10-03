@@ -9,8 +9,9 @@
 />
 
 <script>
-    import me from "$lib/images/me.png"
+    import me from "$lib/images/me.jpeg"
     import bg from "$lib/images/bgwebp.webp"
+    import Skills from "../../components/skills.svelte";
 </script>
 
 <main class="profile-page">
