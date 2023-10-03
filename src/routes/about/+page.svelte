@@ -102,6 +102,7 @@
               />Fundacion Kinal
             </div>
           </div>
+          <Skills />
           <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
             <div class="flex flex-wrap justify-center">
               <div class="w-full lg:w-9/12 px-4">
