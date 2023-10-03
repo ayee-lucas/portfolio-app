@@ -50,7 +50,7 @@
         >
       </section>
       <section
-        class="w-full min-h-screen transition-all grid place-items-center text-4xl dark:text-white bg-gradient-to-br from-black via-zinc-950 via-50% to-indigo-900"
+        class="w-full min-h-screen transition-all grid place-items-center text-4xl dark:text-white bg-gradient-to-br from-black via-zinc-950 via-50% to-indigo-900 max-sm:p-5"
         bind:this={element}
       >
         <div>
