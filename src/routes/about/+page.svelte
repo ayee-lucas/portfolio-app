@@ -14,7 +14,7 @@
     import Skills from "../../components/skills.svelte";
 </script>
 
-<main class="profile-page">
+<main class="profile-page max-h-[90vh]">
   <section class="relative block h-500-px">
     <div
       class="absolute top-0 w-full h-full bg-center bg-cover"
