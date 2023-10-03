@@ -26,7 +26,7 @@
   <IntersectionObserver {element} bind:intersecting threshold={0.4}>
     <div class="w-full min-h-screen dark:bg-black flex flex-col">
       <section
-        class="w-full min-h-screen transition-all grid place-items-center text-5xl dark:text-white"
+        class="w-full min-h-screen transition-all flex justify-center text-center text-5xl text-white"
       >
         <div
           class="absolute flex items-center gap-2 transition-all {helloClass}"
