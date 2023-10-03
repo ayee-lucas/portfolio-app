@@ -24,7 +24,7 @@
         id="blackOverlay"
         class="w-full h-full absolute opacity-50 bg-black"
       />
-      <img src={bg} alt="">
+      <img src={bg} class="max-h-screen" alt="">
     </div>
     <div
       class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
