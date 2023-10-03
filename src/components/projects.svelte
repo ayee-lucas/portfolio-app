@@ -32,13 +32,6 @@
       typescript
       mongo
     />
-    <div
-      class="absolute top-1/3 -left-52 max-sm:-left-32 w-96 h-96 max-sm:w-40 max-sm:h-40 rounded-full bg-gradient-to-r from-zinc-950 from-30% via-indigo-800  to-violet-900 animate-[spin_20s_linear_infinite]"
-    />
-
-    <div
-      class="absolute top-1/3 -right-20 w-72 h-72 max-sm:-right-4 max-sm:w-20 max-sm:h-20 rounded-full bg-gradient-to-r from-green-800  via-lime-800 to-80%  to-black"
-    />
 
     <CardText
       title={"Novaris"}
